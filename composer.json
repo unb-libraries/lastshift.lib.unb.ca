@@ -1,0 +1,27 @@
+{
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "name": "unb-libraries/go.lib.unb.ca",
+  "description": "Scaffold and provision local development for go.lib.unb.ca",
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "./lib/dockworker-jekyll"
+    }
+  ],
+  "require-dev": {
+    "unb-libraries/dockworker": "~3",
+    "unb-libraries/dockworker-jekyll": "*"
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "vendor/bin/dockworker dockworker:git:setup-hooks"
+    ]
+  }
+}
