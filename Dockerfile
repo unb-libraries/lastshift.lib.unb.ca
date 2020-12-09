@@ -3,7 +3,9 @@ FROM jekyll/jekyll:3.8 as jekyll
 COPY ./build /build
 WORKDIR /build/src
 
-RUN jekyll build
+RUN touch Gemfile.lock && \
+  chmod a+w Gemfile.lock && \
+  jekyll build
 
 
 FROM unblibraries/nginx:alpine
