@@ -3,8 +3,7 @@ FROM jekyll/jekyll:3.8 as jekyll
 COPY ./build /build
 WORKDIR /build/src
 
-RUN touch Gemfile.lock && \
-  chmod a+w Gemfile.lock && \
+RUN chown -R jekyll:jekyll /build && \
   jekyll build
 
 
