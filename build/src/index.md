@@ -1,6 +1,6 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+title: Home
+layout: homepage
 ---
+
+<h2><a href="theProject.html">ENTER</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
