@@ -99,15 +99,11 @@ h6 {
 a href {
 	color:#FFF;
 }
-
 ul {
-	margin: 0;
 	padding: 0;
-	display:inline;
 }
-
 ul li {
-	padding: 0 5px 0 0;
+	padding: 0 0 .5rem 0;
 	list-style: none;
 }
 
@@ -232,7 +228,7 @@ hr {
 
 .leftSideBar {
 	margin:0;
-	padding: 0 10px 0 15px;
+	padding: 0;
 	width: 205px;
 	height: auto;
 	float: left;
@@ -250,9 +246,10 @@ hr {
 	margin: 0;
 }
 
-.leftSideBar ul li{
-	padding: 0 0 15px 0;
+.leftSideBar ul li {
+	line-height: 1.2;
 	margin: 0;
+	padding: 0 0 15px 0;
 }
 main {
 	border-left-style:solid;
