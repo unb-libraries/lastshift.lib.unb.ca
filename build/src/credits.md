@@ -10,108 +10,110 @@ title: Credits
 <p>Banner photos used with permission of Michael Levesque</p>
 <p>Website design by Robert Joseph Gray</p>
 
-<p class="mt-5"><em>Special thanks to</em></p>
-<p>Alice Barberie</p>
-<p>Marshall Button</p>
-<p>Aurele Ferlatte</p>
-<p>Bob and June Harquail</p>
-<p>Jarvis "Butch" Harquail</p>
-<p>Karl Heinstein</p>
-<p>Michael Levesque</p>
-<p>Lou Mockler</p>
-<p>Claude Paradis</p>
-<p>Danny Pelletier</p>
-<p>Dave Randall</p>
-<p>Clem Tremblay</p>
+<h2 class="mt-5">
+    Special thanks to
+</h2>
+<ul>
+    <li>Alice Barberie</li>
+    <li>Marshall Button</li>
+    <li>Aurele Ferlatte</li>
+    <li>Bob and June Harquail</li>
+    <li>Jarvis "Butch" Harquail</li>
+    <li>Karl Heinstein</li>
+    <li>Michael Levesque</li>
+    <li>Lou Mockler</li>
+    <li>Claude Paradis</li>
+    <li>Danny Pelletier</li>
+    <li>Dave Randall</li>
+    <li>Clem Tremblay</li>
+</ul>
 
-<p class="mt-5"><em>For personal and archival images:</em></p>
-<p>Bill Clarke, Restigouche Regional Museum</p>
+<h2 class="mt-5">
+    For personal and archival images:
+</h2>
+<ul>
+    <li>Bill Clarke, Restigouche Regional Museum</li>
+    <li>
+        "Once Upon a Time in the Dalhousie, NB Area"<br>
+        Facebook site, Tim Jaques, Creator
+    </li>
+    <li>Google Earth&#8482;</li>
+    <li>The Provincial Archives of New Brunswick</li>
+    <li>CBC TV News at Six, CBC New Brunswick</li>
+    <li>Elizabeth Johnson, Media Archivist, CBC Fredericton</li>
+    <li>
+        Harriet Irving Library, University of New Brunswick<br>
+        Microform Services
+    </li>
+    <li>
+        Province of New Brunswick Image Bank<br>
+        Department of Communications
+    </li>
+    <li>
+        Raymond Richard and Yvon Arsenault<br>
+        (video of mill operations)
+    </li>
+    <li>
+        Town of Dalhousie for permission to use images from<br>
+        <em>Diamond Jubilee Yearbook</em> (1980) &amp; <em>NBIP and Its People</em> (1980)
+    </li>
+    <li>Michael Levesque</li>
+    <li>Jarvis "Butch" Harquail</li>
+    <li>Claude Paradis</li>
+</ul>
 
-<p>
-"Once Upon a Time in the Dalhousie, NB Area"<br />
-Facebook site, Tim Jaques, Creator
-</p>
+<h2 class="mt-5">
+    For technical and other assistance:
+</h2>
+<ul>
+    <li>Eileen Tremblay</li>
+    <li>
+        Audrey Gillis and Lehanne Knowlton<br>
+        Canada Research Chairs Office, St. Thomas University
+    </li>
+    <li>
+        Vickie MacLeod and Dana Hope<br>
+        Media Lab, University of New Brunswick
+    </li>
+    <li>New Brunswick Filmmakers' Co-op</li>
+    <li>"Grey Town" written and performed by Michael Levesque</li>
+    <li>
+        "Grey Town" recorded by Cedar Shack Records<br>
+        Daniel Fontaine, Kevin Legacy, Derek Leslie, Kevin Mallais
+    </li>
+    <li>
+        B3<br>
+        Jean-Marie Beno&icirc;t, David Boutin, Th&eacute;o Brideau
+    </li>
+    <li>Dalhousie Music Club, "Bon Ami Theme Song"</li>
+    <li>Salty Hen</li>
+    <li>Kathleen Gorey-McSorley</li>
+    <li>
+        Denis Noel, Sound and Moving Images<br>
+        Provincial Archives of New Brunswick
+    </li>
+    <li>
+        Mark Firth, News Director<br>
+        CKNB 950 AM, Campbellton, NB
+    </li>
+    <li>Donald Savoie, Universit&eacute; de Moncton</li>
+    <li>John Heinstein</li>
+    <li>Danny Jacobs</li>
+    <li>Bruce Legrow</li>
+</ul>
 
-<p>Google Earth&#8482;</p>
-<p>The Provincial Archives of New Brunswick</p>
-<p>CBC TV News at Six, CBC New Brunswick</p>
-<p>Elizabeth Johnson, Media Archivist, CBC Fredericton</p>
-
-<p>
-Harriet Irving Library, University of New Brunswick<br />
-Microform Services
-</p>
-
-<p>
-Province of New Brunswick Image Bank<br />
-Department of Communications
-</p>
-
-<p>Raymond Richard and Yvon Arsenault<br />
-(video of mill operations)
-</p>
-
-<p>
-Town of Dalhousie for permission to use images from<br />
-<em>Diamond Jubilee Yearbook</em> (1980) &amp; <em>NBIP and Its People</em> (1980)
-</p>
-
-<p>Michael Levesque</p>
-<p>Jarvis "Butch" Harquail</p>
-<p>Claude Paradis</p>
-
-<p class="mt-5"><em>For technical and other assistance:</em></p>
-<p>Eileen Tremblay</p>
-
-<p>Audrey Gillis and Lehanne Knowlton<br />
-Canada Research Chairs Office, St. Thomas University
-</p>
-
-<p>
-Vickie MacLeod and Dana Hope<br />
-Media Lab, University of New Brunswick
-</p>
-
-<p>New Brunswick Filmmakers' Co-op</p>
-<p>"Grey Town" written and performed by Michael Levesque</p>
-
-<p>
-"Grey Town" recorded by Cedar Shack Records<br />
-Daniel Fontaine, Kevin Legacy, Derek Leslie, Kevin Mallais
-</p>
-
-<p>
-B3<br />
-Jean-Marie Beno&icirc;t, David Boutin, Th&eacute;o Brideau
-</p>
-
-<p>Dalhousie Music Club, "Bon Ami Theme Song"</p>
-<p>Salty Hen</p>
-<p>Kathleen Gorey-McSorley</p>
-
-<p>
-Denis Noel, Sound and Moving Images<br />
-Provincial Archives of New Brunswick
-</p>
-
-<p>
-Mark Firth, News Director<br />
-CKNB 950 AM, Campbellton, NB
-</p>
-
-<p>Donald Savoie, Universit&eacute; de Moncton</p>
-<p>John Heinstein</p>
-<p>Danny Jacobs</p>
-<p>Bruce Legrow</p>
-
-<p class="mt-5"><em>Funding for this project was provided by</em></p>
-<p>The University of New Brunswick</p>
-<p>The Canada Research Chairs Secretariat</p>
-<p>Social Sciences and Humanities Research Council of Canada</p>
-<p>St. Thomas University</p>
+<h2 class="mt-5">
+    Funding for this project was provided by
+</h2>
+<ul>
+    <li>The University of New Brunswick</li>
+    <li>The Canada Research Chairs Secretariat</li>
+    <li>Social Sciences and Humanities Research Council of Canada</li>
+    <li>St. Thomas University</li>
+</ul>
 
 <p class="mt-5"> 
-&copy; <em>A Golden Girl Production</em><br />
-<em>Fredericton, New Brunswick</em><br />
-<em>2011</em>
+    &copy; <em>A Golden Girl Production</em><br>
+    <em>Fredericton, New Brunswick</em><br>
+    <em>2011</em>
 </p>
