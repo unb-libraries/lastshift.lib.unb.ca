@@ -26,7 +26,8 @@ body {
 	background-position: top center, top right;
 	background-repeat: repeat;
 	font-family: baskerville,palatino,'palatino linotype',georgia,serif;
-	color: #fff;
+	font-size: 17px;
+	color: #FCFAEA;/*#E6EFFF;*/
 	font-weight: 100;
 	padding: 0;
 	margin: 0;
@@ -34,25 +35,17 @@ body {
 
 a {
 	text-decoration:none;
-	color:#CEFFCC
+	color: #f0a35c;/*#EE9747;#F3BF3A;#CEFFCC;*/
 }
 a:hover {
-	color: #98FF93;
+	color: #C3FCF1;/*#D3FBD8;#98FF93;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #fff;
+	color: #E7D5BB;/*#f7f9ff;#e2dcb0;*/
 	margin: 0;
 	padding: 0;
 	display: inline;
-}
-
-p {	
-	padding:0;
-	margin: 0 0 0.7em 0;
-	font-weight:100;
-	color:#FFF;	
-	font-size: 1em;
 }
 
 ::-webkit-scrollbar {
@@ -76,8 +69,15 @@ h1 {
 
 h2 {
 	font-size: 1.2em;
-	font-variant:small-caps;
+	font-variant: small-caps;
 }
+main h2 {
+	display: block;
+	font-size: 1.4rem;
+	font-variant: small-caps;
+	margin-bottom: 1rem;
+}
+
 
 h3 {
 	font-weight:500	;
@@ -96,20 +96,18 @@ h6 {
 	color:#CC6;
 }
 
-a href {
-	color:#FFF;
-}
 ul {
 	padding: 0;
 }
 ul li {
-	padding: 0 0 .5rem 0;
+	line-height: 1.3;
 	list-style: none;
+	padding: 0 0 1rem 0;
 }
 
-.hangingindent {
-    padding-left: 22px ;
-    text-indent: -22px ;
+.hanging-indent li {
+    padding-left: 1.5rem ;
+    text-indent: -1.5rem ;
 }
 
 /* General Template Rules */
@@ -123,21 +121,21 @@ ul li {
 .sticky-header {
 	position: fixed;
 	margin: 0;
-	padding: 0;
+	padding: 2px 0 0 0;
 	width: 100%;
 	height: 42px;
 	background-image: url("images/sticky-header.png");
-	z-index: 1 !important;
+	z-index: 1;
 }
 
 .sticky-logo {
 	position:absolute;
-	left: 31px;
+	left: 2rem;
 }
 
 .sticky-header ul {
-	position:absolute;
-	right: 20px;
+	position: absolute;
+	right: 2rem;
 }
 
 .sticky-header ul li {
@@ -180,7 +178,7 @@ ul li {
 }
 
 .content-divider {
-	margin: 0 0 2rem 0;
+	margin: 0;
 	padding: 10px 5px 30px 23px;
 	width: auto;
 	height: 30px;
@@ -212,15 +210,16 @@ ul li {
 	width: 20%;
 }
 hr {
-	border: 1px inset rgb(255, 255, 255);
+	border: 1px inset #766851;
 }
 .hr1 hr,
 .hr2 hr {
+	border-color: #B5AA99;
 	margin: 0;
 }
 
 .contentWrap {
-	margin: 0;
+	margin: 1.5rem 0;
 	padding: 0;
 	width: auto;
 	height: auto;
@@ -252,8 +251,8 @@ hr {
 	padding: 0 0 15px 0;
 }
 main {
-	border-left-style:solid;
-	border-left-color:#FFF;
+	border-left-style: outset;
+	border-left-color: #766851;
 	border-left-width:thin;
 	margin: 0 10px 10px 230px;
 	min-height: 600px;
@@ -261,16 +260,16 @@ main {
 }
 
 .page-footer {
+	background-image: url("images/footer-image.png");
+	color: #DFE0DF;
+	font-size: 0.9em;
 	margin: 0 7px;
 	padding: .25rem;
-	background-image: url("images/footer-image.png");
 	text-align: center;
-	font-size: 0.9em;
-	color: #ccc;
 }
 
 blockquote footer {
-	color: #aaa;
+	color:  #E7D5BB;/*#B5AA99;#c0c2cd;*/
 	line-height: 1.3;
 }
 blockquote + hr {
