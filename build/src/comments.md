@@ -5,7 +5,7 @@ title: Viewer Comments
 
 <p  class="mb-5">
     Below are some of the many comments we have received from people who have seen <em>Last Shift</em>. If you would
-    like to add your comments to this list, please <a href="{{ "contact.html" | relative_url }}">contact</a> us.
+    like to add your comments to this list, please <a href="{{ "contact.html" | relative_url }}">contact us</a>.
     We welcome your impressions.
 </p>
 
@@ -23,11 +23,12 @@ title: Viewer Comments
         and the community of Dalhousie itself."
     </p>
     <footer>
-        Peter Paul<br>
-        <br>
-        My grandfather was a Dalhousie resident from 1930-1970. He was a local blacksmith, then millwright from
-        1940s-1960s. My father was also a Dalhousie resident from 1930-1942, and a student labourer at the mill
-        before WWII.
+        Peter Paul
+        <div class="mt-2">
+            My grandfather was a Dalhousie resident from 1930-1970. He was a local blacksmith, then millwright from
+            1940s-1960s. My father was also a Dalhousie resident from 1930-1942, and a student labourer at the mill
+            before WWII.
+        </div>
     </footer>
 </blockquote>
 <hr>
