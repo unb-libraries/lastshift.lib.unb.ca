@@ -9,9 +9,20 @@
 <body class="landing">
     <div class="background">
         <h1>LAST SHIFT</h1>
-        <h3>the story of a mill town</h3>
+        <h2><em>the story of a mill town</em></h2>
         {{ content }}
     </div>
-    <footer class="page-footer">&copy; {{ 'now' | date: "%Y" }} Tony Tremblay. All Rights Reserved.</footer>
+    <footer class="region-footer">
+        <div class="footer-left">
+            <a class="d-inline-block" href="//lib.unb.ca" target="_blank">
+                <img class="unb-lib-logo"
+                     src="{{ "/assets/images/unb-libraries-white.png" | relative_url }}" alt="UNB Libraries">
+            </a>
+        </div>
+        <div class="footer-right">
+            &copy; {{ 'now' | date: "%Y" }} Tony Tremblay. All Rights Reserved.
+        </div>
+
+    </footer>
 </body>
 </html>
