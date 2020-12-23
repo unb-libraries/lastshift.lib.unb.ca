@@ -10,9 +10,9 @@ title: Credits
 <p>Banner photos used with permission of Michael Levesque</p>
 <p>Website design by Robert Joseph Gray</p>
 
-<h2 class="mt-5">
+<h3 class="mt-5">
     Special thanks to
-</h2>
+</h3>
 <ul>
     <li>Alice Barberie</li>
     <li>Marshall Button</li>
@@ -28,9 +28,9 @@ title: Credits
     <li>Clem Tremblay</li>
 </ul>
 
-<h2 class="mt-5">
+<h3 class="mt-5">
     For personal and archival images:
-</h2>
+</h3>
 <ul>
     <li>Bill Clarke, Restigouche Regional Museum</li>
     <li>
@@ -62,9 +62,9 @@ title: Credits
     <li>Claude Paradis</li>
 </ul>
 
-<h2 class="mt-5">
+<h3 class="mt-5">
     For technical and other assistance:
-</h2>
+</h3>
 <ul>
     <li>Eileen Tremblay</li>
     <li>
@@ -102,9 +102,9 @@ title: Credits
     <li>Bruce Legrow</li>
 </ul>
 
-<h2 class="mt-5">
+<h3 class="mt-5">
     Funding for this project was provided by
-</h2>
+</h3>
 <ul>
     <li>The University of New Brunswick</li>
     <li>The Canada Research Chairs Secretariat</li>

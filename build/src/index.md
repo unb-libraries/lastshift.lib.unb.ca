@@ -3,6 +3,6 @@ title: Home
 layout: homepage
 ---
 
-<h2>
+<h3>
     <a href="{{ "the-project.html" | relative_url }}">ENTER</a>
-</h2>
+</h3>

@@ -22,7 +22,7 @@ title: Viewer Comments
         The film gave me a new insight into part of the lives of both my father and grandfather,
         and the community of Dalhousie itself."
     </p>
-    <footer>
+    <footer class="highlight">
         Peter Paul
         <div class="mt-2">
             My grandfather was a Dalhousie resident from 1930-1970. He was a local blacksmith, then millwright from
@@ -43,7 +43,7 @@ title: Viewer Comments
         <em>Last Shift</em> reminds me of <em>Lucien</em> and other works of social history that unfold at their own
         pace. Bravo, well done."
     </p>
-    <footer>
+    <footer class="highlight">
         Bruce Randall &#8211; Section 99 and Office<br>
         Calgary, Alberta
     </footer>
@@ -65,7 +65,7 @@ title: Viewer Comments
     <p>
         A terrific job on the film, and thanks for taking the time to do this."
     </p>
-    <footer>
+    <footer class="highlight">
         Moe Englehart<br>
         Fredericton, NB
     </footer>
@@ -80,7 +80,7 @@ title: Viewer Comments
         men who worked in the mill, we share with them a growing recognition of the huge social and human investment at
         stake in building a successful community and what happens when communities lose control of their destiny."
     </p>
-    <footer>
+    <footer class="highlight">
         David Frank, Professor of History<br>
         University of New Brunswick
     </footer>
@@ -95,7 +95,7 @@ title: Viewer Comments
         the town's sense of pride, its genuine hospitality, and its ability to move forward with hope and optimism.
         Great film, great history, great town!"
     </p>
-    <footer>
+    <footer class="highlight">
         Dorothy Hach&eacute;, Halifax, NS<br>
         Granddaughter to grandparents who chose Dalhousie as their home
     </footer>
@@ -111,7 +111,7 @@ title: Viewer Comments
         and leaves the viewer sad and angry at the betrayal of the town by the mill owners and government who decline
         to pursue options that will keep the mill operating and the town alive."
     </p>
-    <footer>
+    <footer class="highlight">
         Marion Beyea, Director<br>
         Provincial Archives of New Brunswick
     </footer>
@@ -124,7 +124,7 @@ title: Viewer Comments
         our history would be lost. I have not heard one negative remark about your film. I know through experience about
         the hard work it takes to finish such a project. Thank you again."
     </p>
-    <footer>
+    <footer class="highlight">
         Robert Harquail<br>
         Former NBIP Pipe Fitter, Former Town Councillor (17 years), Dalhousie Historian
     </footer>
@@ -141,7 +141,7 @@ title: Viewer Comments
         on a small town during the classic Fordist era, also documents what in many parts of Canada has become a
         vanishing way of life."
     </p>
-    <footer>
+    <footer class="highlight">
         Greg Marquis<br>
         Department of History and Politics<br>
         UNB Saint John
@@ -158,7 +158,7 @@ title: Viewer Comments
         night. How fortunate we were to have grown up in Dalhousie in the 1950s and 60s oblivious to the many influences
         the mill had on our lives."
     </p>
-    <footer>
+    <footer class="highlight">
         James Allard<br>
         Ottawa, ON<br>
         Summer student, Section 99
