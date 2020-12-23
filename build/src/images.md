@@ -5,13 +5,13 @@ title: Images
 
 <div class="text-center">
     <figure>
-        <img class="img-fluid img-thumbnail" src="{{ "/assets/images/bonamiphoto.png" | relative_url }}" alt="">
+        <img class="img-fluid img-thumbnail" src="{{ "/assets/images/bon-ami.png" | relative_url }}" alt="">
     </figure>
     <figure>
-        <img class="img-fluid img-thumbnail" src="{{ "/assets/images/millphotopile.png" | relative_url }}" alt="">
+        <img class="img-fluid img-thumbnail" src="{{ "/assets/images/mill-pile.png" | relative_url }}" alt="">
     </figure>
     <figure>
-        <img class="img-fluid img-thumbnail" src="{{ "/assets/images/milltruck.png" | relative_url }}" alt="">
+        <img class="img-fluid img-thumbnail" src="{{ "/assets/images/mill-truck.png" | relative_url }}" alt="">
     </figure>
     <figure>
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/chaleur.png" | relative_url }}" alt="">
@@ -26,7 +26,7 @@ title: Images
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/water.png" | relative_url }}" alt="">
     </figure>
     <figure>
-        <img class="img-fluid img-thumbnail" src="{{ "/assets/images/snowstreet.png" | relative_url }}" alt="">
+        <img class="img-fluid img-thumbnail" src="{{ "/assets/images/snow-street.png" | relative_url }}" alt="">
     </figure>
     <figure>
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/boots.png" | relative_url }}" alt="">
