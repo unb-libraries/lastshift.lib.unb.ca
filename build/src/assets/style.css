@@ -121,7 +121,7 @@ ul li {
 	color: #fcfaea;
 	font-weight: bold;
 	position: absolute;
-	bottom: 17px;
+	bottom: 14px;
 	left: 50px;
 }
 .region-branding h2 {
@@ -129,8 +129,12 @@ ul li {
 	font-size: 1.5em;
 	font-style: italic;
 	position: absolute;
-	bottom: -5px;
+	bottom: -8px;
 	left: 70px;
+}
+@media (max-width: 1199px) {
+	.region-branding h1 { bottom: 34px }
+	.region-branding h2 { bottom: 12px }
 }
 
 .region-title {
@@ -204,8 +208,8 @@ ul li {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	padding: .25rem 1%;
-	width: 98%;
+	padding: .25rem 0;
+	width: 100%;
 }
 .landing .container {
 	margin-left: auto;
@@ -227,7 +231,7 @@ ul li {
 	color: #fff8f0;
 	font-size: 3em;
 	position: absolute;
-	top: 37%;
+	top: 35%;
 	left: 5%;
 }
 .background h2 {
@@ -235,7 +239,7 @@ ul li {
 	font-size: 1.6em;
 	font-weight: normal;
 	position: absolute;
-	top: 47%;
+	top: 46%;
 	left: 12%;
 }
 .background h3 {
@@ -243,7 +247,7 @@ ul li {
 	position: absolute;
 	text-align: center;
 	text-transform: none;
-	top: 75%;
+	top: 74%;
 	width: 100%;
 }
 .footer-region > div {
