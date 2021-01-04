@@ -176,12 +176,18 @@ ul li {
 		border-left: none;
 	}
 }
+.region-footer {
+	font-size: 17px;
+}
 .region-footer .row {
 	background-image: url("images/footer-image.png");
 	background-repeat: repeat-x;
+	background-size: contain;
 	width: 100%;
 }
-
+.region-footer .unb-lib-logo {
+	max-height: 30px;
+}
 
 /* Landing Page */
 .landing {
@@ -235,8 +241,10 @@ ul li {
 	top: 75%;
 	width: 100%;
 }
-
-/* Utility classes */
+.footer-region > div {
+	padding-top: .25rem;
+	ppadding-bottom: .25rem;
+}
 .footer-left {
 	float: left;
 }
@@ -273,9 +281,6 @@ ul li {
 .page-title {
 	margin: 0 1rem;
 	text-align: center;
-}
-.unb-lib-logo {
-	max-height: 28px;
 }
 
 /* Misc */
