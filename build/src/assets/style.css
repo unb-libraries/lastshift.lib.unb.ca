@@ -97,7 +97,9 @@ ul li {
 	text-transform: uppercase;
 }
 .sticky-nav .separator {
-	font-size: 1.3rem;
+	color: #fff8f0;
+	font-size: 1rem;
+	vertical-align: text-bottom;
 }
 .main-wrapper {
 	background-image:url("images/columnBG.png");
