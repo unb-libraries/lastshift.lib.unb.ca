@@ -13,16 +13,17 @@
         {{ content }}
     </div>
     <footer class="region-footer">
-        <div class="footer-left">
-            <a class="d-inline-block" href="//lib.unb.ca" target="_blank">
-                <img class="unb-lib-logo"
-                     src="{{ "/assets/images/unb-libraries-white.png" | relative_url }}" alt="UNB Libraries">
-            </a>
+        <div class="container">
+            <div class="footer-left">
+                <a class="d-inline-block" href="//lib.unb.ca" target="_blank">
+                    <img class="unb-lib-logo"
+                         src="{{ "/assets/images/unb-libraries-white.png" | relative_url }}" alt="UNB Libraries">
+                </a>
+            </div>
+            <div class="footer-right">
+                &copy; {{ 'now' | date: "%Y" }} Tony Tremblay. All Rights Reserved.
+            </div>
         </div>
-        <div class="footer-right">
-            &copy; {{ 'now' | date: "%Y" }} Tony Tremblay. All Rights Reserved.
-        </div>
-
     </footer>
 </body>
 </html>
