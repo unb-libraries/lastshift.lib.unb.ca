@@ -93,13 +93,12 @@ ul li {
 }
 .sticky-nav a {
 	font-size: 1.2rem;
-	font-weight: 500;
 	text-transform: uppercase;
 }
 .sticky-nav .separator {
 	color: #fff8f0;
 	font-size: 1rem;
-	vertical-align: text-bottom;
+	vertical-align: top;
 }
 .main-wrapper {
 	background-image:url("images/columnBG.png");
@@ -136,7 +135,19 @@ ul li {
 	.region-branding h1 { bottom: 34px }
 	.region-branding h2 { bottom: 12px }
 }
-
+@media (max-width: 414px) {
+	.sticky-logo {left: 1rem; }
+	.sticky-nav a { font-size: 1.1rem; }
+	.sticky-nav ul { right: 1rem; }
+	.region-branding h1 {
+		bottom: 50px;
+		left: 12px;
+	}
+	.region-branding h2 {
+		bottom: 26px;
+		left: 12px;
+	}
+}
 .region-title {
 	width: 100%;
 }
