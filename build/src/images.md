@@ -3,18 +3,18 @@ layout: page
 title: Images
 ---
 
-<div class="image-wrapper text-center">
+<div class="images-wrapper text-center">
     <figure>
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/bon-ami.png" | relative_url }}" alt="">
-         <figcaption>
-            Long-time 'Mr. Bon Ami' Arthur Paradis greets Mayor Clem Tremblay
-         </figcaption>
+        <figcaption>
+            Long-time &quot;Mr. Bon Ami&quot; Arthur Paradis greets Mayor Clem Tremblay
+        </figcaption>
     </figure>
     <figure>
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/mill-pile.png" | relative_url }}" alt="">
-         <figcaption>
+        <figcaption>
             Conveyor belt to the log pile in mill yard
-         </figcaption>
+        </figcaption>
     </figure>
     <figure>
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/mill-truck.png" | relative_url }}" alt="">
@@ -24,44 +24,46 @@ title: Images
     </figure>
     <figure>
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/chaleur.png" | relative_url }}" alt="">
-         <figcaption>
+        <figcaption>
             Chaleur Inn on Montgomery St.
-         </figcaption>
+        </figcaption>
     </figure>
     <figure>
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/mill.png" | relative_url }}" alt="">
-         <figcaption>
+        <figcaption>
             Arial panorama of mill, looking north
-         </figcaption>
+        </figcaption>
     </figure>
     <figure>
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/street.png" | relative_url }}" alt="">
-         <figcaption>
+        <figcaption>
             Arial view of William St., looking west
-         </figcaption>
+        </figcaption>
     </figure>
     <figure>
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/water.png" | relative_url }}" alt="">
         <figcaption>
-            Port of Dalhousie Cargo Wharf, looking east (Michael Levesque photo)
+            Port of Dalhousie Cargo Wharf, looking east
+             <em>(Michael Levesque photo)</em>
         </figcaption>
     </figure>
     <figure>
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/snow-street.png" | relative_url }}" alt="">
-         <figcaption>
+        <figcaption>
             Façade of mill along William St.
-         </figcaption>
+        </figcaption>
     </figure>
     <figure>
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/boots.png" | relative_url }}" alt="">
-         <figcaption>
-            Iconic representation of mill work: steel-toed boots and aluminum lunch pail (Michael Levesque photo)
-         </figcaption>
+        <figcaption>
+            Iconic representation of mill work: steel-toed boots and aluminum lunch pail
+            <em>(Michael Levesque photo)</em>
+        </figcaption>
     </figure>
     <figure>
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/build.png" | relative_url }}" alt="">
-         <figcaption>
+        <figcaption>
             Final stages of mill demolition
-         </figcaption>
+        </figcaption>
     </figure>
 </div>

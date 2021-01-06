@@ -314,10 +314,10 @@ ul li {
 	border-bottom-style: outset;
 	margin: 0;
 }
-.image-wrapper figure:not(last-child) {
+.images-wrapper figure:not(last-child) {
 	margin-bottom: 2.5rem;
 }
-.image-wrapper figcaption {
+.images-wrapper figcaption {
 	color: #c1b5a9;
 }
 .img-thumbnail {
