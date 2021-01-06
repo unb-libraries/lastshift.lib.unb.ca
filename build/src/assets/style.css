@@ -263,7 +263,7 @@ ul li {
 }
 .footer-region > div {
 	padding-top: .25rem;
-	ppadding-bottom: .25rem;
+	padding-bottom: .25rem;
 }
 .footer-left {
 	float: left;
@@ -273,6 +273,23 @@ ul li {
 	padding: 3px 0;
 }
 @media (max-width: 576px) {
+	.background h1 {
+		font-size: 4rem;
+		top: 23%;
+	}
+	.background h2 {
+		font-size: 2rem;
+		top: 37%;
+	}
+	.background h3 {
+		font-size: 3rem;
+		top: 52%;
+	}
+
+	.background .region-footer {
+		font-size: 24px;
+	}
+
 	.footer-left,
 	.footer-right {
 		float: none;
