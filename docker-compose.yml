@@ -16,9 +16,6 @@ services:
     networks:
       - lastshift.lib.unb.ca
 
-volumes:
-  app-volume:
-    
 networks:
   lastshift.lib.unb.ca:
     name: lastshift.lib.unb.ca

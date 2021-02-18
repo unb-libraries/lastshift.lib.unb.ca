@@ -5,13 +5,13 @@ metadata:
     app: jekyll
     instance: lastshift.lib.unb.ca
     tier: lastshift
-    uri: lastshift.lib.unb.ca
+    uri: dev-lastshift.lib.unb.ca
   name: lastshift-lib-unb-ca
-  namespace: prod
+  namespace: dev
 spec:
   selector:
     matchLabels:
-      uri: lastshift.lib.unb.ca
+      uri: dev-lastshift.lib.unb.ca
   replicas: 1
   revisionHistoryLimit: 2
   minReadySeconds: 30
@@ -26,16 +26,16 @@ spec:
         app: jekyll
         instance: lastshift.lib.unb.ca
         tier: lastshift
-        uri: lastshift.lib.unb.ca
+        uri: dev-lastshift.lib.unb.ca
     spec:
       nodeSelector:
-        deployenv: prod
+        deployenv: dev
       containers:
         -
           env:
             -
               name: DEPLOY_ENV
-              value: prod
+              value: dev
           image: "||DEPLOYMENTIMAGE||"
           imagePullPolicy: Always
           name: lastshift-lib-unb-ca

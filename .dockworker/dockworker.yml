@@ -6,7 +6,7 @@ dockworker:
     project_prefix: LSHIFT
     upstream_images:
       - jekyll/jekyll:3.8
-      - unblibraries/nginx:alpine
+      - ghcr.io/unb-libraries/nginx:1.x
   deployment:
     environments:
       - dev
@@ -18,6 +18,6 @@ dockworker:
     push_branches:
       - dev
       - prod
-    name: unblibraries/lastshift.lib.unb.ca
+    name: ghcr.io/unb-libraries/lastshift.lib.unb.ca
     date_tag_image: true
-    repository: dockercloud
+    repository: ghcr
