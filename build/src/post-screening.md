@@ -4,9 +4,9 @@ title: After Screening the Film
 ---
 
 <div class="mb-5">
-<h3>
+<h2>
     Questions for discussion and research
-</h3>
+</h2>
 <p>
     <em>Last Shift</em> raises a number of questions about industry, public governance, economic sustainability,
     and provincial priorities in New Brunswick.
@@ -15,19 +15,15 @@ title: After Screening the Film
 <p>
     We think these questions are important and worth asking, especially in a province that has faced the economic and
     demographic challenges that New Brunswick has for the last 120 years.
-</p>
-</div>
-
-<div class="mb-4">
-<p>
     Here are some of the many questions the film raises, questions that we hope will be part of further discussions in
     New Brunswick:
 </p>
-<h4>
+
+<h3>
     1.
     To what extent do we elect public officials to safeguard the economic well being of all New Brunswickers,
     regardless of where they live?
-</h4>
+</h3>
 <p>    
     (We pose this question because of the lack of results in addressing the de-industrialization of northern
     New Brunswick. While there was much rhetoric and gnashing of teeth, there was no redress of the loss of jobs.)
@@ -42,10 +38,10 @@ title: After Screening the Film
 </div>
 
 <div class="mb-4">
-<h4>
+<h3>
     2.
     What has been the human cost of growth-pole economics in the northern and rural areas of New Brunswick?
-</h4>
+</h3>
 <p>
     (Growth-pole economics, simply put, involves investment in key industries and population densities. The more dense
     the population, the greater are the attentions of government. If New  Brunswick governments have indeed embraced
@@ -59,10 +55,10 @@ title: After Screening the Film
 </div>
 
 <div class="mb-4">
-<h4>
+<h3>
     3.
     What has been the influence of the neo-liberal programme of Self-Sufficiency on New Brunswick?
-</h4>
+</h3>
 <p>
     (Though the programme ultimately failed because of poor implementation, its principle goals and assumptions seem
     to have found traction. Those assumptions include the view that the province's future is knowledge-based not
@@ -77,10 +73,10 @@ title: After Screening the Film
 </div>
 
 <div class="mb-4">
-<h4>
+<h3>
     4.
     Likewise, can a province like New Brunswick be retrofitted to the demands of a knowledge economy?
-</h4>
+</h3>
 <p>
     (The question is not as naive as it may appear, for the province has proven that it can be economically viable as
     an industrial and resource-based enterprise. The technological promise of NBTel, by contrast, the promise on which
@@ -94,11 +90,11 @@ title: After Screening the Film
 </div>
 
 <div class="mb-4">
-<h4>
+<h3>
     5.
     Beyond the estimated $50 million annual revenue stream no longer flowing into communities in northern New
     Brunswick, what else is lost when a major employer ceases operations?
-</h4>
+</h3>
 <p>
     What value do we place on the loss of social capital when skilled workers and their families leave the province?
     Are industrial workers in northern New Brunswick more expendable than knowledge workers in the south? Likewise,
@@ -113,11 +109,11 @@ title: After Screening the Film
 </div>
 
 <div class="mb-4">
-<h4>
+<h3>
     6.
     More generally, what is the value of small communities for the people who live in them and for the province
     as a whole?
-</h4>
+</h3>
 <p>
     Are small communities indeed "inefficient," as Commissioner Jean-Guy Finn's "Report on the Future
     of Local Governance" (2008) would have us believe? Is this all that can be said of them? And is amalgamation
@@ -133,11 +129,11 @@ title: After Screening the Film
 </div>
 
 <div class="mb-4">
-<h4>
+<h3>
     7.
     Lastly, what can one-industry towns like Dalhousie do to insulate themselves from the loss of their major
     employer?
-</h4>
+</h3>
 <p>
     (This question provides the answer to one of the economic problems that has plagued New Brunswick.
     And the answer, of course, is diversity: specifically, that there is a direct correlation between diversity and

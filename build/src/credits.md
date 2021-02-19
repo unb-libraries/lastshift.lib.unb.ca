@@ -16,9 +16,9 @@ title: Credits
     <li>Website refresh (2020) by Jeremy McDermott and Systems Group, UNB Libraries</li>
 </ul>
 
-<h3 class="mt-5">
+<h2 class="mt-5">
     Special thanks to
-</h3>
+</h2>
 <ul>
     <li>Alice Barberie</li>
     <li>Marshall Button</li>
@@ -34,9 +34,9 @@ title: Credits
     <li>Clem Tremblay</li>
 </ul>
 
-<h3 class="mt-5">
+<h2 class="mt-5">
     For personal and archival images:
-</h3>
+</h2>
 <ul>
     <li>Bill Clarke, Restigouche Regional Museum</li>
     <li>
@@ -68,9 +68,9 @@ title: Credits
     <li>Claude Paradis</li>
 </ul>
 
-<h3 class="mt-5">
+<h2 class="mt-5">
     For technical and other assistance:
-</h3>
+</h2>
 <ul>
     <li>Eileen Tremblay</li>
     <li>
@@ -107,9 +107,9 @@ title: Credits
     <li>Bruce Legrow</li>
 </ul>
 
-<h3 class="mt-5">
+<h2 class="mt-5">
     Funding for this project was provided by
-</h3>
+</h2>
 <ul>
     <li>The University of New Brunswick</li>
     <li>The Canada Research Chairs Secretariat</li>
