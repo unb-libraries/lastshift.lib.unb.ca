@@ -83,6 +83,7 @@ ul li {
 }
 .sticky-logo a {
 	font-weight: bold;
+	text-transform: uppercase;
 }
 .sticky-nav ul {
 	position: absolute;
@@ -93,7 +94,6 @@ ul li {
 }
 .sticky-nav a {
 	font-size: 1.2rem;
-	text-transform: uppercase;
 }
 .sticky-nav .separator {
 	color: #fff8f0;
