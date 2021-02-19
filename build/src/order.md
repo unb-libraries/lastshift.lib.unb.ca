@@ -9,10 +9,5 @@ title: Order
 </p>
 
 <p class="mt-5">
-    The price per film is $15, plus postage.
-</p>
-
-<p class="mt-5">
-    Proceeds from the sale of the film fund scholarships at Dalhousie Regional High School
-    and fund the work of the Restigouche Regional Museum, home to the Dalhousie mill archive.
+    The price per film is $20, plus postage.
 </p>
