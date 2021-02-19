@@ -8,6 +8,7 @@ title: Viewer Comments
     like to add your comments to this list, please <a href="{{ "contact.html" | relative_url }}">contact us</a>.
     We welcome your impressions.
 </p>
+<hr class="mb-4b">
 
 <blockquote>
     <p>

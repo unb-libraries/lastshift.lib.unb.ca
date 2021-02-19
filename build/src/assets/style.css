@@ -52,7 +52,8 @@ hr {
 	border-color: #504538;
 	border-top: none;
 }
-blockquote + hr {
+blockquote + hr,
+hr.mb-4b {
 	margin: 2rem auto;
 }
 
@@ -315,6 +316,8 @@ ul li {
 }
 .highlight {
 	color: #c3b8ac;
+}
+em.hightlight {
 	font-size: 1.1em;
 }
 .hr2 {
