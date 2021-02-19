@@ -3,9 +3,9 @@ layout: page
 title: Further Reading
 ---
 
-<h3>
+<h2>
     About Dalhousie
-</h3>
+</h2>
 <ul class="hanging-indent">
    <li>
         Arsenault, Norman, ed. <em>Diamond Jubilee Yearbook: 75 Years, Dalhousie, 75 Ans.</em> Dalhousie, NB: Town of
@@ -25,9 +25,9 @@ title: Further Reading
     </li>
 </ul>
 
-<h3 class="mt-5">
+<h2 class="mt-5">
     About New Brunswick
-</h3>
+</h2>
 <ul class="hanging-indent">
     <li>
         Beaudin, Maurice, ed. <em>The Economic Region of Northeast New Brunswick</em>. Moncton: Canadian Institute of
@@ -58,9 +58,9 @@ title: Further Reading
     </li>
 </ul>
 
-<h3 class="mt-5">
+<h2 class="mt-5">
     About Deindustrialization and Post-Industrialism
-</h3>
+</h2>
 <ul class="hanging-indent">
     <li>
         Barnes, Trevor J., and Roger Hayter. "Economic Restructuring, Local Development and Resource Towns: Forest
