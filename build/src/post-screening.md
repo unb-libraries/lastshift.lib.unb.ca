@@ -3,7 +3,6 @@ layout: page
 title: After Screening the Film
 ---
 
-<div class="mb-5">
 <h2>
     Questions for discussion and research
 </h2>
@@ -12,13 +11,16 @@ title: After Screening the Film
     and provincial priorities in New Brunswick.
 </p>
 
+<div class="mb-5">
 <p>
     We think these questions are important and worth asking, especially in a province that has faced the economic and
     demographic challenges that New Brunswick has for the last 120 years.<br>
     Here are some of the many questions the film raises, questions that we hope will be part of further discussions in
     New Brunswick:
 </p>
+</div>
 
+<div class="mb-5">
 <h3>
     1. To what extent do we elect public officials to safeguard the economic well-being of all New Brunswickers,
     regardless of where they live?
@@ -36,7 +38,7 @@ title: After Screening the Film
 </p>
 </div>
 
-<div class="mb-4">
+<div class="mb-5">
 <h3>
     2. What has been the human cost of growth-pole economics in the northern and rural areas of New Brunswick?
 </h3>
@@ -53,7 +55,7 @@ title: After Screening the Film
 </p>
 </div>
 
-<div class="mb-4">
+<div class="mb-5">
 <h3>
     3. What has been the influence of the neo-liberal programme of Self-Sufficiency on New Brunswick?
 </h3>
@@ -70,7 +72,7 @@ title: After Screening the Film
 </p>
 </div>
 
-<div class="mb-4">
+<div class="mb-5">
 <h3>
     4. Likewise, can a province like New Brunswick be retrofitted to the demands of a knowledge economy?
 </h3>
@@ -87,7 +89,7 @@ title: After Screening the Film
 </p>
 </div>
 
-<div class="mb-4">
+<div class="mb-5">
 <h3>
     5. Beyond the estimated $50 million annual revenue stream no longer flowing into communities in northern
     New Brunswick, what else is lost when a major employer ceases operations?
@@ -106,7 +108,7 @@ title: After Screening the Film
 </p>
 </div>
 
-<div class="mb-4">
+<div class="mb-5">
 <h3>
     6. More generally,
     what is the value of small communities for the people who live in them and for the province as a whole?
@@ -126,7 +128,7 @@ title: After Screening the Film
 </p>
 </div>
 
-<div class="mb-4">
+<div class="mb-5">
 <h3>
     7. Lastly, what can one-industry towns like Dalhousie do to insulate themselves from the loss of their
     major employer?
@@ -135,8 +137,8 @@ title: After Screening the Film
     (This question provides the answer to one of the economic problems that has plagued New Brunswick.
     And the answer, of course, is diversity: specifically, that there is a direct correlation between diversity
     and sustainability. So must be the thinking that drives economic development in the future.
-    The one-economy model [either industrial or knowledge-based, either pro-subsidy or anti-subsidy,
-    either northern or southern] must cease. Rather, if the provincial economy is to be sustainable,
+    The one-economy model <span class="highlight">[either industrial or knowledge-based, either pro-subsidy or anti-subsidy,
+    either northern or southern]</span> must cease. Rather, if the provincial economy is to be sustainable,
     a suite of approaches must be implemented that take account of the strengths and weaknesses of ALL parts
     of the province. To do otherwise &#8211; namely, to franchise a set of efficiencies that privilege a political
     class in Fredericton at the expense of citizens in rural and northern New Brunswick &#8211; is to further
