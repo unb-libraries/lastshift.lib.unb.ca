@@ -3,12 +3,18 @@ layout: page
 title: Credits
 ---
 
-<p>Directed by Tony Tremblay &amp; Ellen Rose</p>
-<p>Produced by Ellen Rose</p>
-<p>Written and narrated by Tony Tremblay</p>
-<p>Camera, sound, and editing by Brendan Mittelholtz</p>
-<p>Banner photos used with permission of Michael Levesque</p>
-<p>Website design by Robert Joseph Gray</p>
+<ul>
+    <li>Directed by Tony Tremblay &amp; Ellen Rose</li>
+    <li>Produced by Ellen Rose</li>
+    <li>Written and narrated by Tony Tremblay</li>
+    <li>Camera, sound, and editing by Brendan Mittelholtz</li>
+</ul>
+
+<ul class="mt-5">
+    <li>Banner photos used with permission of Michael Levesque</li>
+    <li>Original website design by Robert Joseph Gray</li>
+    <li>Website refresh (2020) by Jeremy McDermott and Systems Group, UNB Libraries</li>
+</ul>
 
 <h3 class="mt-5">
     Special thanks to
@@ -35,7 +41,7 @@ title: Credits
     <li>Bill Clarke, Restigouche Regional Museum</li>
     <li>
         "Once Upon a Time in the Dalhousie, NB Area"<br>
-        Facebook site, Tim Jaques, Creator
+        <span class="ml-4">Facebook site, Tim Jaques, Creator</span>
     </li>
     <li>Google Earth&#8482;</li>
     <li>The Provincial Archives of New Brunswick</li>
@@ -43,19 +49,19 @@ title: Credits
     <li>Elizabeth Johnson, Media Archivist, CBC Fredericton</li>
     <li>
         Harriet Irving Library, University of New Brunswick<br>
-        Microform Services
+        <span class="ml-4">Microform Services</span>
     </li>
     <li>
         Province of New Brunswick Image Bank<br>
-        Department of Communications
+        <span class="ml-4">Department of Communications</span>
     </li>
     <li>
         Raymond Richard and Yvon Arsenault<br>
-        (video of mill operations)
+        <span class="ml-4">(video of mill operations)</span>
     </li>
     <li>
         Town of Dalhousie for permission to use images from<br>
-        <em>Diamond Jubilee Yearbook</em> (1980) &amp; <em>NBIP and Its People</em> (1980)
+        <em class="ml-4">Diamond Jubilee Yearbook</em> (1980) &amp; <em>NBIP and Its People</em> (1980)
     </li>
     <li>Michael Levesque</li>
     <li>Jarvis "Butch" Harquail</li>
@@ -69,32 +75,31 @@ title: Credits
     <li>Eileen Tremblay</li>
     <li>
         Audrey Gillis and Lehanne Knowlton<br>
-        Canada Research Chairs Office, St. Thomas University
+        <span class="ml-4">Canada Research Chairs Office, St. Thomas University</span>
     </li>
     <li>
         Vickie MacLeod and Dana Hope<br>
-        Media Lab, University of New Brunswick
+        <span class="ml-4">Media Lab, University of New Brunswick</span>
     </li>
     <li>New Brunswick Filmmakers' Co-op</li>
     <li>"Grey Town" written and performed by Michael Levesque</li>
     <li>
         "Grey Town" recorded by Cedar Shack Records<br>
-        Daniel Fontaine, Kevin Legacy, Derek Leslie, Kevin Mallais
+        <span class="ml-4">Daniel Fontaine, Kevin Legacy, Derek Leslie, Kevin Mallais</span>
     </li>
     <li>
-        B3<br>
-        Jean-Marie Beno&icirc;t, David Boutin, Th&eacute;o Brideau
+        B3: Jean-Marie Beno&icirc;t, David Boutin, Th&eacute;o Brideau
     </li>
     <li>Dalhousie Music Club, "Bon Ami Theme Song"</li>
     <li>Salty Hen</li>
     <li>Kathleen Gorey-McSorley</li>
     <li>
         Denis Noel, Sound and Moving Images<br>
-        Provincial Archives of New Brunswick
+        <span class="ml-4">Provincial Archives of New Brunswick</span>
     </li>
     <li>
         Mark Firth, News Director<br>
-        CKNB 950 AM, Campbellton, NB
+        <span class="ml-4">CKNB 950 AM, Campbellton, NB</span>
     </li>
     <li>Donald Savoie, Universit&eacute; de Moncton</li>
     <li>John Heinstein</li>
