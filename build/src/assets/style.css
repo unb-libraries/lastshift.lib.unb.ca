@@ -27,9 +27,10 @@ a:hover {
 	color: #ddfff3;
 }
 
-h1 {
+h1, .h1 {
 	font-size: 2em;
 }
+h1,
 h2,
 h3,
 h4 {
@@ -37,9 +38,9 @@ h4 {
 	font-variant: small-caps;
 	text-transform: lowercase;
 }
-.page-title h2 {
+.page-title h1 {
 	color: #fff8f0;
-	font-size: 1.5em;
+	font-size: 1.6em;
 }
 h4 {
 	font-size: 1.3rem;
@@ -116,34 +117,40 @@ ul li {
 	position: relative;
 	width: 100%;
 }
-.region-branding h1 {
+.region-branding h1,
+.region-branding .h1{
 	color: #fcfaea;
 	font-weight: bold;
 	position: absolute;
 	bottom: 14px;
 	left: 50px;
 }
-.region-branding h2 {
+.region-branding h2,
+.region-branding .h3 {
 	color: #fcfaea;
-	font-size: 1.5em;
+	font-size: 1.55em;
 	font-style: italic;
 	position: absolute;
 	bottom: -8px;
 	left: 70px;
 }
 @media (max-width: 1199px) {
-	.region-branding h1 { bottom: 34px }
-	.region-branding h2 { bottom: 12px }
+	.region-branding h1,
+	.region-branding .h1 { bottom: 34px }
+	.region-branding h2,
+	.region-branding .h3 { bottom: 12px }
 }
 @media (max-width: 414px) {
 	.sticky-logo {left: 1rem; }
 	.sticky-nav a { font-size: 1.1rem; }
 	.sticky-nav ul { right: 1rem; }
-	.region-branding h1 {
+	.region-branding h1,
+	.region-branding .h1 {
 		bottom: 50px;
 		left: 12px;
 	}
-	.region-branding h2 {
+	.region-branding h2,
+	.region-branding .h3 {
 		bottom: 26px;
 		left: 12px;
 	}
