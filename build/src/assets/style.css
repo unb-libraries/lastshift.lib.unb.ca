@@ -210,6 +210,10 @@ ul li {
 .region-footer .unb-lib-logo {
 	max-height: 30px;
 }
+.region-footer a:focus .unb-lib-logo,
+.region-footer a:hover .unb-lib-logo {
+	opacity: .8;
+}
 
 /* Landing Page */
 .landing {
