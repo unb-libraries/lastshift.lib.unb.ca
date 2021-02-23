@@ -21,7 +21,7 @@ title: Viewer Comments
         The film gave me a new insight into part of the lives of both my father and grandfather,
         and the community of Dalhousie itself. My grandfather was a Dalhousie resident from 1930-1970.
         He was a local blacksmith, then millwright from 1940s-1960s. My father was also a Dalhousie resident
-        from 1930-1942, and a student labourer at the mill before WWII.&quot
+        from 1930-1942, and a student labourer at the mill before WWII.&quot;
     </p>
     <footer class="highlight">
         Peter Paul
@@ -133,7 +133,7 @@ title: Viewer Comments
         combined with a skillful blend of still images and interviews with former mill workers and
         other residents of Dalhousie. The film, which reveals the economic, social and cultural impact of heavy industry
         on a small town during the classic Fordist era, also documents what in many parts of Canada has become a
-        vanishing way of life.&quot
+        vanishing way of life.&quot;
     </p>
     <footer class="highlight">
         Greg Marquis<br>
