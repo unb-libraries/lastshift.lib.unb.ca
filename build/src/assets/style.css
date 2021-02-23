@@ -62,7 +62,10 @@ ul[role="navigation"] .nav-link:hover {
 }
 ul li {
 	list-style: none;
-	padding: 0 0 1rem 0;
+	padding: 0 0 .75rem 0;
+}
+.region-main ul li {
+	line-height: 1.4;
 }
 
 /* Regions */
