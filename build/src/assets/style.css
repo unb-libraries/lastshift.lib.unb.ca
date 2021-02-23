@@ -175,7 +175,6 @@ ul li {
 	line-height: 1;
 	padding: 0;
 }
-
 .region-main {
 	border-left-style: inset;
 	border-left-color: #fff8f0;
@@ -313,7 +312,7 @@ ul li {
 .highlight {
 	color: #c3b8ac;
 }
-em.hightlight {
+em.highlight {
 	font-size: 1.1em;
 }
 .hr2 {
