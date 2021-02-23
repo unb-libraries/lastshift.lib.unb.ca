@@ -3,7 +3,7 @@ layout: page
 title: Images
 ---
 
-<div class="images-wrapper text-center">
+<div class="images-wrapper mt-1 text-center">
     <figure>
         <img class="img-fluid img-thumbnail" src="{{ "/assets/images/bon-ami.png" | relative_url }}" alt="">
         <figcaption>

@@ -3,7 +3,7 @@ layout: page
 title: Links
 ---
 
-<ul>
+<ul class="mt-1">
     <li>
         <a href="https://www.dalhousie.ca">Town of Dalhousie/<span lang="fr">Ville de Dalhousie</span></a>
     </li>

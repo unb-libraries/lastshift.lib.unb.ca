@@ -109,7 +109,7 @@ ul li {
 	background-image:url("images/header-image.png");
 	background-repeat:no-repeat;
 	background-size: cover;
-	height: 333px;
+	height: 353px;
 	margin: 0 2px;
 	position: relative;
 	width: 100%;
@@ -118,7 +118,7 @@ ul li {
 	color: #fcfaea;
 	font-weight: bold;
 	position: absolute;
-	bottom: 14px;
+	bottom: 30px;
 	left: 50px;
 }
 .region-branding .h3 {
@@ -127,14 +127,14 @@ ul li {
 	font-style: italic;
 	text-transform: uppercase;
 	position: absolute;
-	bottom: -7px;
+	bottom: 5px;
 	left: 70px;
 }
 @media (max-width: 1199px) {
 	.region-branding h1,
-	.region-branding .h1 { bottom: 34px }
+	.region-branding .h1 { bottom: 53px }
 	.region-branding h2,
-	.region-branding .h3 { bottom: 12px }
+	.region-branding .h3 { bottom: 33px }
 }
 @media (max-width: 414px) {
 	.sticky-logo {left: 1rem; }
@@ -142,12 +142,10 @@ ul li {
 	.sticky-nav ul { right: 1rem; }
 	.region-branding h1,
 	.region-branding .h1 {
-		bottom: 50px;
 		left: 12px;
 	}
 	.region-branding h2,
 	.region-branding .h3 {
-		bottom: 26px;
 		left: 12px;
 	}
 }

@@ -3,7 +3,7 @@ layout: page
 title: Credits
 ---
 
-<ul>
+<ul class="mt-1">
     <li>Directed by Tony Tremblay &amp; Ellen Rose</li>
     <li>Produced by Ellen Rose</li>
     <li>Written and narrated by Tony Tremblay</li>

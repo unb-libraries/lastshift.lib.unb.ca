@@ -3,7 +3,7 @@ layout: page
 title: The Project
 ---
 
-<p>
+<p class="mt-1">
     <em>Last Shift: The Story of a Mill Town</em> was inspired by events that unfolded in late 2007
     when Abitibi-Bowater announced its intention to close Dalhousie's pulp and paper mill.
 </p>
