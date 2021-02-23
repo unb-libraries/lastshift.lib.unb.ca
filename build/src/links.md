@@ -23,7 +23,7 @@ title: Links
         <a href="https://www.stu.ca/english/tony-tremblay">Tony Tremblay</a>
     </li>
     <li>
-        <a href="http://www.unb.ca/fredericton/education/people/ellenrose.html">Ellen Rose</a>
+        <a href="https://www.unb.ca/faculty-staff/directory/education/rose-ellen.html">Ellen Rose</a>
     </li>
     <li>
         <a href="https://journals.lib.unb.ca/index.php/JNBS/index"><em>The Journal of New Brunswick
