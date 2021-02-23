@@ -14,9 +14,6 @@ title: Links
         <a href="https://www1.gnb.ca/0003/pages/en/biblio-e.asp?code=CD">Dalhousie Centennial Library</a>
     </li>
     <li>
-        <a href="http://www.portofdalhousie.com">Port of Dalhousie</a>
-    </li>
-    <li>
         <a href="http://www.bonamifestival.com"><span lang="fr">Bon Ami</span> Festival</a>
     </li>
     <li>
