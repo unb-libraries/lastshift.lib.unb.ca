@@ -74,7 +74,7 @@ title: Credits
 <ul>
     <li>Eileen Tremblay</li>
     <li>
-        Audrey Gillis and Lehanne Knowlton<br>
+        Audrey Gillis<br>
         <span class="ml-4">Canada Research Chairs Office, St. Thomas University</span>
     </li>
     <li>
