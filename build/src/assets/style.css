@@ -255,6 +255,8 @@ ul li {
 .title h1 {
 	color: #fff8f0;
 	font-size: 3.5em;
+	letter-spacing: 2px;
+	margin-bottom: 0;
 }
 .title h2 {
 	color: #fff8f0;
