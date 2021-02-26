@@ -8,5 +8,5 @@ title: Order
     <a href="mailto:Last.Shift@stu.ca">Last.Shift@stu.ca</a>.
 </p>
 <p>
-    The price per film is $20, plus postage.
+    The price per film is $20, plus postage and handling (normally $5).
 </p>
