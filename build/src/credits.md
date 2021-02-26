@@ -35,7 +35,7 @@ title: Credits
 </ul>
 
 <h2 class="mt-5">
-    For personal and archival images:
+    For personal and archival images
 </h2>
 <ul>
     <li>Bill Clarke, Restigouche Regional Museum</li>
@@ -69,7 +69,7 @@ title: Credits
 </ul>
 
 <h2 class="mt-5">
-    For technical and other assistance:
+    For technical and other assistance
 </h2>
 <ul>
     <li>Eileen Tremblay</li>
