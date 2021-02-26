@@ -14,7 +14,7 @@ title: After Screening the Film
 <div class="mb-5">
 <p>
     We think these questions are important and worth asking, especially in a province that has faced the economic and
-    demographic challenges that New Brunswick has for the last 120 years.<br>
+    demographic challenges that New Brunswick has for the last 125 years.<br>
     Here are some of the many questions the film raises, questions that we hope will be part of further discussions in
     New Brunswick:
 </p>
