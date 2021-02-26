@@ -60,11 +60,11 @@ title: After Screening the Film
     3. What has been the influence of the neo-liberal programme of Self-Sufficiency on New Brunswick?
 </h3>
 <p>
-    (Though the program ultimately failed because of poor implementation, its principle goals and assumptions have
+    Though the program ultimately failed because of poor implementation, its principle goals and assumptions have
     found traction. Those assumptions include the view that the province's future is knowledge-based not industrial;
     that the areas of New Brunswick best positioned to take advantage of a knowledge economy are clustered around
     the three universities in the south; and that any form of subsidy to industry is a kind of welfare capitalism
-    that should be avoided at all cost.)
+    that should be avoided at all cost.
     <em class="highlight">
         Can such a program work in a province comprised of historically successful industrial regions?
         Can an industrial region and mindset be retrofitted without wholesale attention and investment from government?
