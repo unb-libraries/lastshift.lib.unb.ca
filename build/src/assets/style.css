@@ -32,12 +32,12 @@ h1, .h1 {
 }
 h1, h2, h3, h4 {
 	color: #C8B297;
-	font-variant: small-caps;
-	text-transform: lowercase;
+	text-transform: uppercase;
 }
 .page-title h1 {
 	color: #fff8f0;
-	font-size: 1.6em;
+	font-size: 1.1em;
+	margin-bottom: 0;
 }
 h2 { font-size: 1.75rem; }
 h3, h4 { font-size: 1.3rem; }
@@ -247,7 +247,7 @@ ul li {
 }
 .background .title {
 	position: absolute;
-	top: 45%;
+	top: 41%;
 	left: 5%;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
@@ -270,7 +270,7 @@ ul li {
 	position: absolute;
 	text-align: center;
 	text-transform: none;
-	bottom: 20%;
+	bottom: 25%;
 	width: 100%;
 }
 .background h3 a {
@@ -297,7 +297,6 @@ ul li {
 		font-size: 2rem;
 		top: 37%;
 	}
-
 	.background .region-footer {
 		font-size: 24px;
 	}
