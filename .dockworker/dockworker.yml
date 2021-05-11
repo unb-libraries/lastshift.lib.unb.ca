@@ -1,5 +1,5 @@
 dockworker:
-  version: '3.0'
+  version: '4.0'
   application:
     name: lastshift.lib.unb.ca
     finish_marker: '99_z_notify_user_URI'
@@ -7,6 +7,7 @@ dockworker:
     upstream_images:
       - jekyll/jekyll:3.8
       - ghcr.io/unb-libraries/nginx:1.x
+    uuid: 3112
   deployment:
     environments:
       - dev

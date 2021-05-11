@@ -1,14 +1,12 @@
-![lastshift.lib.unb.ca screenshot](https://github.com/unb-libraries/lastshift.lib.unb.ca/raw/prod/.dockworker/screenshot.png "lastshift.lib.unb.ca screenshot")
 # [lastshift.lib.unb.ca](https://lastshift.lib.unb.ca/) : Lean Instance Repository
-[![Build Status](https://travis-ci.com/unb-libraries/lastshift.lib.unb.ca.svg?branch=prod)](https://travis-ci.com/unb-libraries/lastshift.lib.unb.ca)
+[![Build Status](https://github.com/unb-libraries/lastshift.lib.unb.ca/actions/workflows/test-suite.yaml/badge.svg?branch=prod)](https://github.com/unb-libraries/lastshift.lib.unb.ca/actions/workflows/test-suite.yaml)
 [![GitHub license](https://img.shields.io/github/license/unb-libraries/lastshift.lib.unb.ca)](https://github.com/unb-libraries/lastshift.lib.unb.ca/blob/prod/LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/unb-libraries/lastshift.lib.unb.ca?label=lean%20repo%20size)
-[![Docker image size](https://img.shields.io/docker/image-size/unblibraries/lastshift.lib.unb.ca/prod?label=docker%20image%20size)](https://hub.docker.com/repository/docker/unblibraries/lastshift.lib.unb.ca)
 
 This repository contains the assets used to test, build, and deploy the lastshift.lib.unb.ca application.
 
-## Deploy, Develop in this Application Yourself!
-Local deployment, development and testing is accelerated via [dockworker](https://github.com/unb-libraries/dockworker), our unified framework of [Robo](https://robo.li/) commands that streamline local development of our application on Linux or OSX.
+## Deploy this Application Yourself!
+Local deployment, development and testing of lastshift.lib.unb.ca is easy, as we leverage [dockworker](https://github.com/unb-libraries/dockworker), our unified framework of [Robo](https://robo.li/) commands that streamline local development of our application on Linux or OSX.
 
 ### Step 1: Install Dockworker Dependencies
 In your local development environment, several 'one time' dependency installations are required to deploy all applications with dockworker. Some or all of these may already be installed in your environment.
@@ -37,6 +35,7 @@ Run ```vendor/bin/dockworker``` to list available dockworker commands for this a
 ## Author / Contributors
 This application was created at [![UNB Libraries](https://github.com/unb-libraries/assets/raw/master/unblibbadge.png "UNB Libraries")](https://lib.unb.ca) by the following humans:
 
+<a href="https://github.com/jtmcd75"><img src="https://avatars.githubusercontent.com/u/10372283?v=3" title="Jeremy McDermott" width="128" height="128"></a>
 <a href="https://github.com/JacobSanford"><img src="https://avatars.githubusercontent.com/u/244894?v=3" title="Jacob Sanford" width="128" height="128"></a>
 
 ## License

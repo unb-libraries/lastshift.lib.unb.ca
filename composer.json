@@ -2,8 +2,8 @@
   "license": "MIT",
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "name": "unb-libraries/go.lib.unb.ca",
-  "description": "Scaffold and provision local development for go.lib.unb.ca",
+  "name": "unb-libraries/lastshift.lib.unb.ca",
+  "description": "Scaffold and provision local development for lastshift.lib.unb.ca",
   "config": {
     "preferred-install": {
       "*": "dist"
@@ -16,7 +16,7 @@
     }
   ],
   "require-dev": {
-    "unb-libraries/dockworker": "~3",
+    "unb-libraries/dockworker": "~4",
     "unb-libraries/dockworker-jekyll": "*"
   },
   "scripts": {
