@@ -1,4 +1,7 @@
-.idea
 .gitkeep
-vendor
+.html
+.idea
+build/src/Gemfile.lock
+builder
 composer.lock
+vendor

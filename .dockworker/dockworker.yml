@@ -2,7 +2,7 @@ dockworker:
   version: '4.0'
   application:
     name: lastshift.lib.unb.ca
-    finish_marker: '99_z_notify_user_URI'
+    finish_marker: '99_zz_notify_user_URI'
     project_prefix: LSHIFT
     upstream_images:
       - jekyll/jekyll:3.8

@@ -3,8 +3,10 @@ FROM jekyll/jekyll:3.8 as jekyll
 COPY ./build /build
 WORKDIR /build/src
 
-RUN chown -R jekyll:jekyll /build && \
-  jekyll build
+RUN chown jekyll:jekyll / && \
+  chown -R jekyll:jekyll /build && \
+  jekyll build --destination /dist
+
 
 FROM ghcr.io/unb-libraries/nginx:1.x
 MAINTAINER UNB Libraries <libsupport@unb.ca>
@@ -18,7 +20,7 @@ RUN cp -r /build/scripts/container/* /scripts/ && \
   mv /build/nginx/app.conf /etc/nginx/conf.d/app.conf && \
   rm -rf /build && \
   rm -rf /app/html
-COPY --from=jekyll /build/src/_site /app/html
+COPY --from=jekyll /dist /app/html
 
 LABEL ca.unb.lib.generator="jekyll" \
   com.microscaling.docker.dockerfile="/Dockerfile" \

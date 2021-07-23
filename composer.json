@@ -9,19 +9,13 @@
       "*": "dist"
     }
   },
-  "repositories": [
-    {
-      "type": "path",
-      "url": "./lib/dockworker-jekyll"
-    }
-  ],
   "require-dev": {
-    "unb-libraries/dockworker": "~4",
-    "unb-libraries/dockworker-jekyll": "*"
+    "unb-libraries/dockworker-jekyll": "^1"
   },
   "scripts": {
     "post-update-cmd": [
-      "vendor/bin/dockworker dockworker:git:setup-hooks"
+      "vendor/bin/dockworker dockworker:git:setup-hooks",
+      "vendor/bin/dockworker local:jekyll:update-builder"
     ]
   }
 }
