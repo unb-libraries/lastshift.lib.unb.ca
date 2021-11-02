@@ -42,7 +42,7 @@ spec:
           ports:
             -
               containerPort: 80
-      priorityClassName: high-priority-services
+      priorityClassName: dev-high-priority-services
       imagePullSecrets:
         -
           name: github-container-registry-auth
