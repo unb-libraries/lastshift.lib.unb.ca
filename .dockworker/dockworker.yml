@@ -3,7 +3,7 @@ dockworker:
   application:
     name: lastshift.lib.unb.ca
     finish_marker: '99_zz_notify_user_URI'
-    project_prefix: LSHIFT
+    project_prefix: LASTSHIFT
     upstream_images:
       - jekyll/jekyll:3.8
       - ghcr.io/unb-libraries/nginx:1.x
