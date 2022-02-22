@@ -5,3 +5,4 @@ build/src/Gemfile.lock
 builder
 composer.lock
 vendor
+config-yml/.htaccess
