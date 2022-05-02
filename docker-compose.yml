@@ -2,7 +2,7 @@ services:
   lastshift.lib.unb.ca:
     build:
       context: .
-    restart: always
+    restart: unless-stopped
     container_name: lastshift.lib.unb.ca
     expose:
       - "80"
@@ -14,11 +14,10 @@ services:
       - lastshift.lib.unb.ca
     volumes:
       - ./.html:/app/html
-
   builder:
     build:
       context: builder
-    restart: always
+    restart: unless-stopped
     container_name: builder.lastshift.lib.unb.ca
     networks:
       - lastshift.lib.unb.ca
