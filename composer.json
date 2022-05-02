@@ -13,7 +13,7 @@
   "name": "unb-libraries/lastshift.lib.unb.ca",
   "prefer-stable": true,
   "require-dev": {
-    "unb-libraries/dockworker-jekyll": "^1"
+    "unb-libraries/dockworker-jekyll": "^5"
   },
   "scripts": {
     "post-update-cmd": [
