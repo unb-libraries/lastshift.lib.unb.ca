@@ -20,7 +20,7 @@ title: Links
         <a href="http://www.gnb.ca">Province of New Brunswick</a>
     </li>
     <li>
-        <a href="https://www.stu.ca/english/tony-tremblay">Tony Tremblay</a>
+        <a href="https://tonytremblay.ca">Tony Tremblay</a>
     </li>
     <li>
         <a href="https://www.unb.ca/faculty-staff/directory/education/rose-ellen.html">Ellen Rose</a>
