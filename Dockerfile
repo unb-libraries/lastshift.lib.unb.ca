@@ -1,4 +1,4 @@
-FROM jekyll/jekyll:3.8 as jekyll
+FROM jekyll/jekyll:3.8 AS jekyll
 
 COPY ./build /build
 WORKDIR /build/src
@@ -9,7 +9,6 @@ RUN chown jekyll:jekyll / && \
 
 
 FROM ghcr.io/unb-libraries/nginx:1.x
-MAINTAINER UNB Libraries <libsupport@unb.ca>
 
 ARG BUILD_DATE
 ARG VCS_REF
