@@ -14,11 +14,11 @@
   "name": "unb-libraries/lastshift.lib.unb.ca",
   "prefer-stable": true,
   "require-dev": {
-    "unb-libraries/dockworker-jekyll": "^5"
+    "unb-libraries/dockworker-jekyll": "^6"
   },
   "scripts": {
     "post-update-cmd": [
-      "vendor/bin/dockworker dockworker:git:setup-hooks",
+      "vendor/bin/dockworker git:setup-hooks",
       "vendor/bin/dockworker local:jekyll:update-builder"
     ]
   }

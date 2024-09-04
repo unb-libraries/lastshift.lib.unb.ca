@@ -1,9 +1,9 @@
 services:
-  lastshift.lib.unb.ca:
+  lastshift-lib-unb-ca:
     build:
       context: .
     restart: unless-stopped
-    container_name: lastshift.lib.unb.ca
+    container_name: lastshift-lib-unb-ca
     expose:
       - "80"
     ports:
@@ -18,7 +18,7 @@ services:
     build:
       context: builder
     restart: unless-stopped
-    container_name: builder.lastshift.lib.unb.ca
+    container_name: builder-lastshift-lib-unb-ca
     networks:
       - lastshift.lib.unb.ca
     volumes:

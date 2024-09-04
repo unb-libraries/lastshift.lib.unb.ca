@@ -8,7 +8,7 @@ RUN chown jekyll:jekyll / && \
   jekyll build --destination /dist
 
 
-FROM ghcr.io/unb-libraries/nginx:1.x
+FROM ghcr.io/unb-libraries/nginx:3.18.x
 
 ARG BUILD_DATE
 ARG VCS_REF
@@ -16,7 +16,7 @@ ARG VERSION
 
 COPY ./build /build
 RUN cp -r /build/scripts/container/* /scripts/ && \
-  mv /build/nginx/app.conf /etc/nginx/conf.d/app.conf && \
+  mv /build/nginx/app.conf "$NGINX_APP_CONF_FILE" && \
   rm -rf /build && \
   rm -rf /app/html
 COPY --from=jekyll /dist /app/html
