@@ -22,15 +22,11 @@ RUN cp -r /build/scripts/container/* /scripts/ && \
 COPY --from=jekyll /dist /app/html
 
 LABEL ca.unb.lib.generator="jekyll" \
-  com.microscaling.docker.dockerfile="/Dockerfile" \
-  com.microscaling.license="MIT" \
-  org.label-schema.build-date=$BUILD_DATE \
-  org.label-schema.description="lastshift.lib.unb.ca outlines the poignant history of one town's way of life, and of how that town's horizons were shaped and altered by the pulsing industry at its heart." \
-  org.label-schema.name="lastshift.lib.unb.ca" \
-  org.label-schema.schema-version="1.0" \
-  org.label-schema.vcs-ref=$VCS_REF \
-  org.label-schema.vcs-url="https://github.com/unb-libraries/lastshift.lib.unb.ca" \
-  org.label-schema.vendor="University of New Brunswick Libraries" \
-  org.label-schema.version=$VERSION \
   org.opencontainers.image.authors="UNB Libraries <libsupport@unb.ca>" \
-  org.opencontainers.image.source="https://github.com/unb-libraries/lastshift.lib.unb.ca"
+  org.opencontainers.image.created="$BUILD_DATE" \
+  org.opencontainers.image.description="lastshift.lib.unb.ca outlines the poignant history of one town's way of life, and of how that town's horizons were shaped and altered by the pulsing industry at its heart." \
+  org.opencontainers.image.revision="$VCS_REF" \
+  org.opencontainers.image.source="https://github.com/unb-libraries/lastshift.lib.unb.ca" \
+  org.opencontainers.image.title="lastshift.lib.unb.ca" \
+  org.opencontainers.image.vendor="University of New Brunswick Libraries" \
+  org.opencontainers.image.version="$VERSION"
