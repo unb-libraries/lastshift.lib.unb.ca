@@ -1,29 +1,25 @@
 services:
   lastshift-lib-unb-ca:
     build:
+      target: development
       context: .
-    restart: unless-stopped
     container_name: lastshift-lib-unb-ca
-    expose:
-      - "80"
+    volumes:
+      - ./.nuxt:/nuxt/.nuxt
+      - ./app:/nuxt/app
+      - ./public:/nuxt/public
+      - ./nuxt.config.ts:/nuxt/nuxt.config.ts
+      - ./package.json:/nuxt/package.json
+      - ./pnpm-lock.yaml:/nuxt/pnpm-lock.yaml
+    environment:
+      NUXT_SITE_URI: ${NUXT_SITE_URI}
+      NUXT_PORT: ${NUXT_PORT}
     ports:
-      - "3112:80"
-    env_file:
-      - ./env/jekyll.env
+      - '3112:3112'
+      - '31120:31120'
     networks:
       - lastshift.lib.unb.ca
-    volumes:
-      - ./.html:/app/html
-  builder:
-    build:
-      context: builder
-    restart: unless-stopped
-    container_name: builder-lastshift-lib-unb-ca
-    networks:
-      - lastshift.lib.unb.ca
-    volumes:
-      - ./build/src:/build/src
-      - ./.html:/dist
+
 networks:
   lastshift.lib.unb.ca:
     name: lastshift.lib.unb.ca

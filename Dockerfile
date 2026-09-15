@@ -1,32 +1,73 @@
-FROM jekyll/jekyll:3.8 AS jekyll
+FROM node:26-alpine AS base
 
-COPY ./build /build
-WORKDIR /build/src
+ENV APP_ROOT=/nuxt
 
-RUN chown jekyll:jekyll / && \
-  chown -R jekyll:jekyll /build && \
-  jekyll build --destination /dist
+ENV NODE_ENV=production
+
+ENV NUXT_SITE_ID=lastshift
+ENV NUXT_SITE_URI=lastshift.lib.unb.ca
+ENV NUXT_SITE_UUID=1884a385-9812-4470-bbf8-40fd42e6745f
+ENV HUSKY=0
+
+WORKDIR $APP_ROOT
+
+# Deliberately no COPY: keeps this layer pure toolchain, and cached.
+RUN apk update && \
+    apk add bash && \
+    npm install -g corepack && \
+    corepack enable pnpm
 
 
-FROM ghcr.io/unb-libraries/nginx:3.18.x
+# Local development image
+FROM base AS development
+
+ENV NODE_ENV=development
+
+COPY . .
+
+RUN apk update && \
+    apk add curl && \
+    pnpm install
+
+CMD ["pnpm", "dev"]
+
+
+# Throw-away build image
+FROM base AS build
+
+# Install from the manifests alone, so editing app/ does not reinstall node_modules.
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+# pnpm runs `postinstall` and `prepare` during install, so both files must exist by then.
+COPY scripts/postinstall.mjs ./scripts/
+COPY .husky/install.mjs ./.husky/
+
+RUN pnpm install --frozen-lockfile --prod=false
+
+COPY . .
+
+# No image is produced if the generated site is incomplete; see the script for why.
+RUN pnpm run generate && \
+    node scripts/verify-generate.mjs
+
+
+# Deployment image
+FROM ghcr.io/unb-libraries/nuxt-ssg:3.23.x
 
 ARG BUILD_DATE
 ARG VCS_REF
 ARG VERSION
 
-COPY ./build /build
-RUN cp -r /build/scripts/container/* /scripts/ && \
-  mv /build/nginx/app.conf "$NGINX_APP_CONF_FILE" && \
-  rm -rf /build && \
-  rm -rf /app/html
-COPY --from=jekyll /dist /app/html
+# Into $APP_WEBROOT, not over it: the base image ships .well-known/ there.
+COPY --from=build /nuxt/.output/public/ ${APP_WEBROOT}/
 
-LABEL ca.unb.lib.generator="jekyll" \
-  org.opencontainers.image.authors="UNB Libraries <libsupport@unb.ca>" \
-  org.opencontainers.image.created="$BUILD_DATE" \
-  org.opencontainers.image.description="lastshift.lib.unb.ca outlines the poignant history of one town's way of life, and of how that town's horizons were shaped and altered by the pulsing industry at its heart." \
-  org.opencontainers.image.revision="$VCS_REF" \
-  org.opencontainers.image.source="https://github.com/unb-libraries/lastshift.lib.unb.ca" \
+LABEL ca.unb.lib.generator="nuxt-ssg" \
   org.opencontainers.image.title="lastshift.lib.unb.ca" \
+  org.opencontainers.image.description="Last Shift: The Story of a Mill Town - the history of one town's way of life, shaped by the industry at its heart." \
   org.opencontainers.image.vendor="University of New Brunswick Libraries" \
-  org.opencontainers.image.version="$VERSION"
+  org.opencontainers.image.authors="UNB Libraries <libsupport@unb.ca>" \
+  org.opencontainers.image.url="https://lastshift.lib.unb.ca" \
+  org.opencontainers.image.source="https://github.com/unb-libraries/lastshift.lib.unb.ca" \
+  org.opencontainers.image.licenses="MIT" \
+  org.opencontainers.image.version="$VERSION" \
+  org.opencontainers.image.revision="$VCS_REF" \
+  org.opencontainers.image.created="$BUILD_DATE"
