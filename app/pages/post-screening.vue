@@ -24,7 +24,7 @@ definePageMeta({ title: 'After Screening the Film' })
     </div>
 
     <div class="mb-5">
-      <h3>
+      <h3 class="mt-3">
         1. To what extent do we elect public officials to safeguard the economic well-being of all New Brunswickers,
         regardless of where they live?
       </h3>
@@ -42,7 +42,7 @@ definePageMeta({ title: 'After Screening the Film' })
     </div>
 
     <div class="mb-5">
-      <h3>
+      <h3 class="mt-3">
         2. What has been the human cost of growth-pole economics in the northern and rural areas of New Brunswick?
       </h3>
       <p>
@@ -59,7 +59,7 @@ definePageMeta({ title: 'After Screening the Film' })
     </div>
 
     <div class="mb-5">
-      <h3>
+      <h3 class="mt-3">
         3. What has been the influence of the neo-liberal programme of Self-Sufficiency on New Brunswick?
       </h3>
       <p>
@@ -76,7 +76,7 @@ definePageMeta({ title: 'After Screening the Film' })
     </div>
 
     <div class="mb-5">
-      <h3>
+      <h3 class="mt-3">
         4. Likewise, can a province like New Brunswick be retrofitted to the demands of a knowledge economy?
       </h3>
       <p>
@@ -93,7 +93,7 @@ definePageMeta({ title: 'After Screening the Film' })
     </div>
 
     <div class="mb-5">
-      <h3>
+      <h3 class="mt-3">
         5. Beyond the estimated $50 million annual revenue stream no longer flowing into communities in northern
         New Brunswick, what else is lost when a major employer ceases operations?
       </h3>
@@ -112,7 +112,7 @@ definePageMeta({ title: 'After Screening the Film' })
     </div>
 
     <div class="mb-5">
-      <h3>
+      <h3 class="mt-3">
         6. More generally,
         what is the value of small communities for the people who live in them and for the province as a whole?
       </h3>
@@ -132,7 +132,7 @@ definePageMeta({ title: 'After Screening the Film' })
     </div>
 
     <div class="mb-5">
-      <h3>
+      <h3 class="mt-3">
         7. Lastly, what can one-industry towns like Dalhousie do to insulate themselves from the loss of their
         major employer?
       </h3>

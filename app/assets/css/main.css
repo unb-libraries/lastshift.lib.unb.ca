@@ -148,7 +148,7 @@
   }
 
   .images-gallery img {
-    @apply bg-ink mx-auto;
+    @apply bg-ink mx-auto rounded border border-[#dee2e6] p-1;
   }
 
   .hanging-indent li {

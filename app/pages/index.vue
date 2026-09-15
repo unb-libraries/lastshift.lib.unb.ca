@@ -4,7 +4,7 @@ definePageMeta({ layout: 'landing' })
 
 <template>
   <h3>
-    <NuxtLink to="/the-project" class="bg-black/65 px-3 py-1 text-2xl">
+    <NuxtLink to="/the-project" class="bg-black/65 mr-[3.5%] px-3 py-1 text-3xl sm:text-4xl">
       ENTER
     </NuxtLink>
   </h3>

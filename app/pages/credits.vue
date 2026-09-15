@@ -17,7 +17,7 @@ definePageMeta({ title: 'Credits' })
       <li>Website refresh (2020) by Jeremy McDermott and Systems Group, UNB Libraries</li>
     </ul>
 
-    <h2>
+    <h2 class="mt-12">
       Special thanks to
     </h2>
     <ul>
@@ -35,7 +35,7 @@ definePageMeta({ title: 'Credits' })
       <li>Clem Tremblay</li>
     </ul>
 
-    <h2>
+    <h2 class="mt-12">
       For personal and archival images
     </h2>
     <ul>
@@ -69,7 +69,7 @@ definePageMeta({ title: 'Credits' })
       <li>Claude Paradis</li>
     </ul>
 
-    <h2>
+    <h2 class="mt-12">
       For technical and other assistance
     </h2>
     <ul>
@@ -108,7 +108,7 @@ definePageMeta({ title: 'Credits' })
       <li>Bruce Legrow</li>
     </ul>
 
-    <h2>
+    <h2 class="mt-12">
       Funding for this project was provided by
     </h2>
     <ul>
