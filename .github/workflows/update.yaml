@@ -1,0 +1,12 @@
+name: Update lastshift.lib.unb.ca
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 5 * * 1'
+
+jobs:
+  update:
+    uses: unb-libraries/github-workflows/.github/workflows/update-nuxt.yaml@1.x
+    secrets:
+      PAT_TOKEN: ${{ secrets.UNBLIBBOT_PAT_TOKEN }}
